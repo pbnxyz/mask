@@ -1,0 +1,122 @@
+[
+    {
+        "rule": "dynamic_value_substitution",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "data_mapping": [
+            {
+                "database_column_1": "dataset_column_1",
+                "database_column_2": "dataset_column_2",
+                "database_column_3": "dataset_column_3"
+            }
+        ],
+        "where_clause": "",
+        "dataset_path": ""
+    },
+    {
+        "rule": "static_value_substitution",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "", 
+        "column": "",
+        "static_value": "",
+        "where_clause": ""
+    },
+    {
+        "rule": "fake_ssn_substitution",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "", 
+        "column": "",
+        "seperator": "",
+        "ignore_null": ""
+    },
+    {
+        "rule": "date_variance",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "column": "",
+        "range": 1,
+        "where_clause": "",
+        "method": ""
+    },
+    {
+        "rule": "truncate_table",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": ""
+    },
+    {
+        "rule": "delete_rows",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "where_clause": ""
+    },
+    {
+        "rule": "adhoc_command",
+        "group": 1,
+        "command": ""
+    },
+    {
+        "rule": "adhoc_script",
+        "group": 1,
+        "script": ""
+    },
+    {
+        "rule": "disable_trigger",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "trigger": ""
+    },
+    {
+        "rule": "enable_trigger",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "trigger": ""
+    },    
+    {
+        "rule": "disable_check_constraint",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "check_constraint": ""
+    },
+    {
+        "rule": "enable_check_constraint",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "check_constraint": ""
+    },    
+    {
+        "rule": "disable_foreign_key",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "foreign_key": ""
+    },
+    {
+        "rule": "enable_foreign_key",
+        "group": 1,
+        "database": "",
+        "schema": "",
+        "table": "",
+        "foreign_key": ""
+    }
+]
